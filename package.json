@@ -1,0 +1,28 @@
+{
+  "name": "background-remover-bot",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "description": "Telegram bot for removing image backgrounds",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "init-firebase": "node scripts/initFirebase.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase": "^10.14.1",
+    "firebase-admin": "^12.7.0",
+    "node-telegram-bot-api": "^0.64.0",
+    "remove.bg": "^1.3.0",
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
